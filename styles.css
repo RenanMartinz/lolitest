@@ -1,0 +1,122 @@
+:root{
+    --roxo_claro: #c299c2;
+    --roxo_escuro: #914591; 
+    --branco: #ffffff;
+    --rosa: #f5acbc; 
+}
+
+header{
+    background-color: var(--roxo_escuro);
+    padding: 10px;
+    font-size: 26px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+}
+
+.logo{
+    width: 80px ;
+    height: auto;
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+
+}
+
+.slide{
+    width: 100%;
+    height: 95vh;
+}
+
+.slide img{
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+    display: block;
+}
+
+.corpo{
+    padding: 100px 200px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.title{
+    padding-bottom: 25px;
+    font-size: 48px;
+    color: var(--roxo_escuro);
+    text-align: center;
+
+}
+
+.sobre_nos{
+    color: var(--roxo_claro);
+}
+
+.servicos{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: var(--rosa);
+}
+
+.cards{
+    padding-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 8px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border: 2px solid #914591;
+
+    padding: 20px;
+    background-color: #c299c2;
+    color: #ffffff;
+}
+
+.cards p{
+    padding-top: 7px;
+    font-size: 22px;
+    text-align: start
+}
+
+
+.comercial{
+    padding-top: 50px ;
+}
+
+.contato{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+footer{
+    background-color: black;
+    color: #ffffff;
+    font-size: 16x;
+    padding: 10px;
+}
+
+
+

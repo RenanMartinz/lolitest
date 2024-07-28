@@ -1,0 +1,61 @@
+/* Reset.css */
+
+/* Remove all the margins, paddings, and borders from all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a default font-size, font-family, and color for the body */
+body {
+    font-size: 100%;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #fff;
+}
+
+/* Remove the default list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove text decoration from links and set a default color */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default styles for tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove default styles for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Remove default styles for form elements */
+button, input, select, textarea {
+    font: inherit;
+}
+
+/* Reset headings to have normal font-weight and size */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/* Remove default styles for blockquotes */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
